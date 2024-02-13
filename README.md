@@ -21,9 +21,6 @@ Memastikan pengguna dapat menemukan produk yang mereka cari dengan menggunakan f
 ## Status
 Sukses
 
-## Catatan
--
-
 # Test Case: Checkout Keranjang
 
 ## Deskripsi
@@ -50,8 +47,6 @@ User harus menerima konfirmasi atau pesan sukses yang menegaskan bahwa pembayara
 User menerima konfirmasi atau pesan sukses yang menegaskan bahwa pembayaran mereka telah berhasil diproses setelah menyelesaikan proses pembayaran.
 ## Status
 Sukses
-## Catatan
--
 
 ## Test Case: Mengubah Data User
 
@@ -74,8 +69,6 @@ Memastikan bahwa user dapat mempersonalisasikan data seperti nama, email, nomor 
 - User menerima konfirmasi atau pesan sukses yang menegaskan bahwa perubahan telah disimpan.
 ### Status
 Lolos
-### Catatan
--
 
 ## Test Case: Mengakses Informasi Bantuan
 
@@ -94,5 +87,3 @@ Sistem harus menampilkan informasi bantuan yang dibutuhkan.
 Sistem menampilkan informasi bantuan yang dibutuhkan.
 ### Status
 Lolos
-### Catatan
--
