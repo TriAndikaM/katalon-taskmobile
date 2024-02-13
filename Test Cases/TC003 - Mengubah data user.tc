@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memastikan bahwa user dapat mempersonalisasikan data seperti nama, email, nomor telepon, dan alamat</description>
+   <name>TC003 - Mengubah data user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8c8d1971-7ed8-4df2-8126-c374d4bd2b1b</testCaseGuid>
+</TestCaseEntity>

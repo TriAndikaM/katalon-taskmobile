@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memastikan user dapat dengan sukses meminta bantuan melalui fitur bantuan (help) di aplikasi e-commerce mobile</description>
+   <name>TC004 - Mengakses informasi bantuan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5b6016eb-905e-4052-b0a9-cbd53a91fc32</testCaseGuid>
+</TestCaseEntity>

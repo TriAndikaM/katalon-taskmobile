@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS 2" time="112.798" tests="2" failures="0" errors="0">
+   <testsuite name="TS 2" tests="2" failures="0" errors="0" time="112.798" skipped="0" timestamp="13-02-2024T12:36:11" hostname="asus - LAPTOP-PECE1U4E" id="Test Suites/TS 2">
+      <properties>
+         <property name="deviceName" value="emulator-5556 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Training BRI\\Bootcamp IT\\Katalon Automation Testing\\Automation Project\\katalon-taskmobile\\Reports\\20240213_123605\\TS 2\\20240213_123605"/>
+         <property name="logFiles" value="E:\\Training BRI\\Bootcamp IT\\Katalon Automation Testing\\Automation Project\\katalon-taskmobile\\Reports\\20240213_123605\\TS 2\\20240213_123605\\appium.log, E:\\Training BRI\\Bootcamp IT\\Katalon Automation Testing\\Automation Project\\katalon-taskmobile\\Reports\\20240213_123605\\TS 2\\20240213_123605\\appium_error.log, E:\\Training BRI\\Bootcamp IT\\Katalon Automation Testing\\Automation Project\\katalon-taskmobile\\Reports\\20240213_123605\\TS 2\\20240213_123605\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="asus - LAPTOP-PECE1U4E"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.0&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.0"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="172.16.213.207"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5556"/>
+         <property name="deviceName" value="emulator-5556 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/TC003 - Mengubah data user" time="42.449" classname="Test Cases/TC003 - Mengubah data user" status="PASSED">
+         <system-out><![CDATA[13-02-2024T12:36:11 - [TEST_CASE][PASSED] - Test Cases/TC003 - Mengubah data user: Test Cases/TC003 - Mengubah data user
+
+13-02-2024T12:36:12 - [TEST_STEP][PASSED] - startApplication("C:\Users\asus\Downloads\Documents\Compressed\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:36:12 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T12:36:18 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T12:36:18 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\asus\.appium
+
+13-02-2024T12:36:18 - [MESSAGE][INFO] - appium outlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-taskmobile\Reports\20240213_123605\TS 2\20240213_123605\appium.log
+
+13-02-2024T12:36:18 - [MESSAGE][INFO] - appium errlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-taskmobile\Reports\20240213_123605\TS 2\20240213_123605\appium_error.log
+
+13-02-2024T12:36:21 - [MESSAGE][INFO] - Appium server started on port 7,584
+
+13-02-2024T12:36:34 - [MESSAGE][PASSED] - Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:36:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/userprofilce/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/userprofilce/android.widget.FrameLayout'
+
+13-02-2024T12:36:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:36:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/userprofilce/android.widget.FrameLayout'
+
+13-02-2024T12:36:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/userprofilce/android.widget.TextView - EDIT"), 0): Tapped on element 'Object Repository/userprofilce/android.widget.TextView - EDIT'
+
+13-02-2024T12:36:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:36:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/userprofilce/android.widget.TextView - EDIT'
+
+13-02-2024T12:36:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/New Folder (1)/nameprofile"), 0): Tapped on element 'Object Repository/New Folder (1)/nameprofile'
+
+13-02-2024T12:36:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:36:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/New Folder (1)/nameprofile'
+
+13-02-2024T12:36:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Folder/name.EditText - Your Name"), "anak kucing", 0): Text 'anak kucing' has been set to element 'Object Repository/New Folder/name.EditText - Your Name'
+
+13-02-2024T12:36:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:36:46 - [MESSAGE][PASSED] - Text 'anak kucing' has been set to element 'Object Repository/New Folder/name.EditText - Your Name'
+
+13-02-2024T12:36:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/New Folder (1)/android.widget.Button - OK"), 0): Tapped on element 'Object Repository/New Folder (1)/android.widget.Button - OK'
+
+13-02-2024T12:36:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:36:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/New Folder (1)/android.widget.Button - OK'
+
+13-02-2024T12:36:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+13-02-2024T12:36:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+13-02-2024T12:36:52 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T12:36:54 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC004 - Mengakses informasi bantuan" time="70.045" classname="Test Cases/TC004 - Mengakses informasi bantuan" status="PASSED">
+         <system-out><![CDATA[13-02-2024T12:36:54 - [TEST_CASE][PASSED] - Test Cases/TC004 - Mengakses informasi bantuan: Test Cases/TC004 - Mengakses informasi bantuan
+
+13-02-2024T12:36:54 - [TEST_STEP][PASSED] - startApplication("C:\Users\asus\Downloads\Documents\Compressed\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:36:54 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T12:37:00 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T12:37:00 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\asus\.appium
+
+13-02-2024T12:37:00 - [MESSAGE][INFO] - appium outlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-taskmobile\Reports\20240213_123605\TS 2\20240213_123605\appium.log
+
+13-02-2024T12:37:00 - [MESSAGE][INFO] - appium errlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-taskmobile\Reports\20240213_123605\TS 2\20240213_123605\appium_error.log
+
+13-02-2024T12:37:02 - [MESSAGE][INFO] - Appium server started on port 7,837
+
+13-02-2024T12:37:12 - [MESSAGE][PASSED] - Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:37:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/android.widget.FrameLayout'
+
+13-02-2024T12:37:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:37:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.FrameLayout'
+
+13-02-2024T12:37:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T12:37:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T12:37:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.RelativeLayout"), 0): Tapped on element 'Object Repository/android.widget.RelativeLayout'
+
+13-02-2024T12:37:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:37:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.RelativeLayout'
+
+13-02-2024T12:37:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T12:37:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T12:37:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/android.widget.ImageButton'
+
+13-02-2024T12:37:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:37:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButton'
+
+13-02-2024T12:37:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T12:37:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T12:37:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.RelativeLayout (1)"), 0): Tapped on element 'Object Repository/android.widget.RelativeLayout (1)'
+
+13-02-2024T12:37:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:37:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.RelativeLayout (1)'
+
+13-02-2024T12:37:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T12:37:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T12:37:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/android.widget.ImageButton'
+
+13-02-2024T12:37:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:37:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButton'
+
+13-02-2024T12:37:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T12:37:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T12:37:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.RelativeLayout (2)"), 0): Tapped on element 'Object Repository/android.widget.RelativeLayout (2)'
+
+13-02-2024T12:37:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:37:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.RelativeLayout (2)'
+
+13-02-2024T12:37:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T12:37:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T12:37:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/android.widget.ImageButton'
+
+13-02-2024T12:37:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:37:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButton'
+
+13-02-2024T12:37:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T12:37:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T12:37:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.RelativeLayout (3)"), 0): Tapped on element 'Object Repository/android.widget.RelativeLayout (3)'
+
+13-02-2024T12:37:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:37:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.RelativeLayout (3)'
+
+13-02-2024T12:37:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T12:37:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T12:37:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/android.widget.ImageButton'
+
+13-02-2024T12:37:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:37:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButton'
+
+13-02-2024T12:37:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T12:37:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T12:37:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.RelativeLayout (4)"), 0): Tapped on element 'Object Repository/android.widget.RelativeLayout (4)'
+
+13-02-2024T12:37:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:37:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.RelativeLayout (4)'
+
+13-02-2024T12:37:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T12:38:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T12:38:01 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T12:38:04 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T12:36:11 - [TEST_SUITE][PASSED] - TS 2: Test Cases/TC004 - Mengakses informasi bantuan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

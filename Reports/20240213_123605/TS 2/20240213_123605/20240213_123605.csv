@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS 2,,,,13-02-2024 12:36:11,13-02-2024 12:38:04,1m - 52.798s,PASSED
+,,,,,,,
+Test Cases/TC003 - Mengubah data user,,"Memastikan bahwa user dapat mempersonalisasikan data seperti nama, email, nomor telepon, dan alamat",,13-02-2024 12:36:11,13-02-2024 12:36:54,42.449s,PASSED
+"startApplication(""C:\Users\asus\Downloads\Documents\Compressed\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 12:36:12,13-02-2024 12:36:34,22.352s,PASSED
+"tap(findTestObject(""Object Repository/userprofilce/android.widget.FrameLayout""), 0)",,,,13-02-2024 12:36:34,13-02-2024 12:36:39,5.015s,PASSED
+"tap(findTestObject(""Object Repository/userprofilce/android.widget.TextView - EDIT""), 0)",,,,13-02-2024 12:36:39,13-02-2024 12:36:40,0.444s,PASSED
+"tap(findTestObject(""Object Repository/New Folder (1)/nameprofile""), 0)",,,,13-02-2024 12:36:40,13-02-2024 12:36:43,3.492s,PASSED
+"setText(findTestObject(""Object Repository/New Folder/name.EditText - Your Name""), ""anak kucing"", 0)",,,,13-02-2024 12:36:43,13-02-2024 12:36:46,2.644s,PASSED
+"tap(findTestObject(""Object Repository/New Folder (1)/android.widget.Button - OK""), 0)",,,,13-02-2024 12:36:46,13-02-2024 12:36:47,0.866s,PASSED
+delay(5),,,,13-02-2024 12:36:47,13-02-2024 12:36:52,5.036s,PASSED
+closeApplication(),,,,13-02-2024 12:36:52,13-02-2024 12:36:54,2.244s,PASSED
+,,,,,,,
+Test Cases/TC004 - Mengakses informasi bantuan,,Memastikan user dapat dengan sukses meminta bantuan melalui fitur bantuan (help) di aplikasi e-commerce mobile,,13-02-2024 12:36:54,13-02-2024 12:38:04,1m - 10.045s,PASSED
+"startApplication(""C:\Users\asus\Downloads\Documents\Compressed\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 12:36:54,13-02-2024 12:37:12,17.993s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.FrameLayout""), 0)",,,,13-02-2024 12:37:12,13-02-2024 12:37:18,5.957s,PASSED
+delay(3),,,,13-02-2024 12:37:18,13-02-2024 12:37:21,3.019s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.RelativeLayout""), 0)",,,,13-02-2024 12:37:21,13-02-2024 12:37:22,1.263s,PASSED
+delay(3),,,,13-02-2024 12:37:22,13-02-2024 12:37:25,3.020s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageButton""), 0)",,,,13-02-2024 12:37:25,13-02-2024 12:37:27,1.418s,PASSED
+delay(3),,,,13-02-2024 12:37:27,13-02-2024 12:37:30,3.013s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.RelativeLayout (1)""), 0)",,,,13-02-2024 12:37:30,13-02-2024 12:37:32,1.994s,PASSED
+delay(3),,,,13-02-2024 12:37:32,13-02-2024 12:37:35,3.017s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageButton""), 0)",,,,13-02-2024 12:37:35,13-02-2024 12:37:36,1.472s,PASSED
+delay(3),,,,13-02-2024 12:37:36,13-02-2024 12:37:39,3.012s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.RelativeLayout (2)""), 0)",,,,13-02-2024 12:37:39,13-02-2024 12:37:41,1.904s,PASSED
+delay(3),,,,13-02-2024 12:37:41,13-02-2024 12:37:44,3.018s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageButton""), 0)",,,,13-02-2024 12:37:44,13-02-2024 12:37:45,0.716s,PASSED
+delay(3),,,,13-02-2024 12:37:45,13-02-2024 12:37:48,3.010s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.RelativeLayout (3)""), 0)",,,,13-02-2024 12:37:48,13-02-2024 12:37:50,2.070s,PASSED
+delay(3),,,,13-02-2024 12:37:50,13-02-2024 12:37:53,3.008s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageButton""), 0)",,,,13-02-2024 12:37:53,13-02-2024 12:37:54,0.719s,PASSED
+delay(3),,,,13-02-2024 12:37:54,13-02-2024 12:37:57,3.015s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.RelativeLayout (4)""), 0)",,,,13-02-2024 12:37:57,13-02-2024 12:37:58,1.834s,PASSED
+delay(3),,,,13-02-2024 12:37:58,13-02-2024 12:38:01,3.007s,PASSED
+closeApplication(),,,,13-02-2024 12:38:01,13-02-2024 12:38:04,2.401s,PASSED

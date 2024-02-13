@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memastikan pengguna dapat menemukan produk yang mereka cari dengan menggunakan fitur pencarian, dan bahwa sistem merespons dengan benar terhadap permintaan pencarian.</description>
+   <name>TC001 - Pencarian Produk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>12ad75d6-c9e3-411b-a61b-42b3e08a77d5</testCaseGuid>
+</TestCaseEntity>
