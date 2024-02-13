@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS 1,,,,13-02-2024 13:27:31,13-02-2024 13:29:08,1m - 36.189s,PASSED
+,,,,,,,
+Test Cases/TC001 - Pencarian Produk,,"Memastikan pengguna dapat menemukan produk yang mereka cari dengan menggunakan fitur pencarian, dan bahwa sistem merespons dengan benar terhadap permintaan pencarian.",,13-02-2024 13:27:32,13-02-2024 13:28:15,43.051s,PASSED
+"startApplication(""C:\Users\asus\Downloads\Documents\Compressed\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 13:27:32,13-02-2024 13:27:59,26.724s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView""), 0)",,,,13-02-2024 13:27:59,13-02-2024 13:28:04,5.285s,PASSED
+delay(3),,,,13-02-2024 13:28:04,13-02-2024 13:28:07,3.062s,PASSED
+"setText(findTestObject(""Object Repository/Searchbar""), ""apple"", 0)",,,,13-02-2024 13:28:07,13-02-2024 13:28:10,2.450s,PASSED
+delay(3),,,,13-02-2024 13:28:10,13-02-2024 13:28:13,3.007s,PASSED
+closeApplication(),,,,13-02-2024 13:28:13,13-02-2024 13:28:15,2.206s,PASSED
+,,,,,,,
+Test Cases/TC002 - Checkout Barang,,Memastikan pengguna dapat menambahkan produk ke keranjang dengan sukses di aplikasi e-commerce.,,13-02-2024 13:28:15,13-02-2024 13:29:08,52.781s,PASSED
+"startApplication(""C:\Users\asus\Downloads\Documents\Compressed\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 13:28:15,13-02-2024 13:28:33,17.932s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.FrameLayout (1)""), 0)",,,,13-02-2024 13:28:33,13-02-2024 13:28:39,5.799s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.RelativeLayout""), 0)",,,,13-02-2024 13:28:39,13-02-2024 13:28:42,3.150s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView""), 0)",,,,13-02-2024 13:28:42,13-02-2024 13:28:42,0.378s,PASSED
+"tap(findTestObject(""Object Repository/New Folder/addtocart.Button - ADD TO CART""), 0)",,,,13-02-2024 13:28:42,13-02-2024 13:28:46,3.467s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.EditText""), ""2"", 0)",,,,13-02-2024 13:28:46,13-02-2024 13:28:49,3.123s,PASSED
+"tap(findTestObject(""Object Repository/New Folder/add.Button - ADD""), 0)",,,,13-02-2024 13:28:49,13-02-2024 13:28:50,0.893s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView (1)""), 0)",,,,13-02-2024 13:28:50,13-02-2024 13:28:51,0.860s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - CHECKOUT""), 0)",,,,13-02-2024 13:28:51,13-02-2024 13:28:52,1.656s,PASSED
+"tap(findTestObject(""Object Repository/New Folder/checkout.Button - PROCESS CHECKOUT""), 0)",,,,13-02-2024 13:28:52,13-02-2024 13:28:55,2.164s,PASSED
+"tap(findTestObject(""Object Repository/New Folder/yes.Button - YES""), 0)",,,,13-02-2024 13:28:55,13-02-2024 13:28:57,2.827s,PASSED
+delay(8),,,,13-02-2024 13:28:57,13-02-2024 13:29:05,8.014s,PASSED
+closeApplication(),,,,13-02-2024 13:29:05,13-02-2024 13:29:08,2.272s,PASSED
